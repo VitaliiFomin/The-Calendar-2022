@@ -1,0 +1,27 @@
+.site-name {
+   font-family: 'Roboto Condensed', sans-serif;
+   color: #235C55;
+    
+   .title {
+     font-size: 33px;
+     font-weight: bold;
+     margin-bottom: 3px;
+   }
+
+   .description {
+     font-size: 16px;
+     margin-top: 0;
+   }
+  
+}
+
+.main-button {
+    background: #D81e5d;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #FFE6DE;
+    padding: 5px 11px;
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: bold;
+}
