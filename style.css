@@ -1,3 +1,7 @@
+.header-region {
+  background: #fef0d5;
+}
+
 .site-name {
   font-family: 'Roboto Condensed', sans-serif;
   color: #235C55;
@@ -23,5 +27,9 @@
   border-radius: 14px;
   font-size: 14px;
   font-weight: bold;
+}
+
+.site-logo .image {
+  width: 95px;
 }
 /*# sourceMappingURL=style.css.map */
