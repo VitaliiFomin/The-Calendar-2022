@@ -1,9 +1,31 @@
 .header-region {
   background: #fef0d5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.header-region .site-name {
+  margin-left: 20px;
+}
+
+.header-region .share-calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: auto;
 }
 
 .site-name {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #235C55;
 }
 
@@ -27,6 +49,7 @@
   border-radius: 14px;
   font-size: 14px;
   font-weight: bold;
+  margin: 3px;
 }
 
 .site-logo .image {
