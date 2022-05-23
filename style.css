@@ -1,12 +1,20 @@
+body {
+  font-family: sans-serif;
+}
+
 .header-region {
   background: #fef0d5;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.header-region .layout {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
 }
 
 .header-region .site-name {
@@ -54,5 +62,21 @@
 
 .site-logo .image {
   width: 95px;
+}
+
+.color-choise .label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.color-choise .dropdown {
+  padding: 5px;
+  border: 1px solid #DBDBDB;
+  border-radius: 1px;
+}
+
+._container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */

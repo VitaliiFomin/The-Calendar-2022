@@ -4,12 +4,21 @@ sans-serif;
 $color-yellow: #fef0d5;
 $color-blue: #235C55;
 $color-red: #D81e5d;
+$color-grey: #DBDBDB;
+
+body {
+  font-family: sans-serif;
+}
 
 .header-region {
   background: $color-yellow;
-  display: flex;
-  align-items: center;
   padding: 10px;
+  margin-bottom: 30px;
+
+  .layout {
+    display: flex;
+    align-items: center;
+  }
 
   .site-name {
     margin-left: 20px;
@@ -58,4 +67,22 @@ $color-red: #D81e5d;
     width: 95px;
   }
 
+}
+
+.color-choise {
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .dropdown {
+    padding: 5px;
+    border: 1px solid $color-grey;
+    border-radius: 1px;
+  }
+}
+
+._container {
+  max-width: 960px;
+  margin: 0 auto;
 }
