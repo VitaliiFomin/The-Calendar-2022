@@ -70,9 +70,42 @@ body {
 }
 
 .color-choise .dropdown {
-  padding: 5px;
+  padding: 6px;
   border: 1px solid #DBDBDB;
-  border-radius: 1px;
+  border-radius: 5px;
+}
+
+.single-calendar {
+  color: #525053;
+  width: 270px;
+  height: 320px;
+}
+
+.single-calendar .calendar {
+  border: 2px solid #235C55;
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+
+.single-calendar .monthname {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.single-calendar .weekdays {
+  color: #b8b6b9;
+}
+
+.single-calendar .dayname {
+  font-weight: normal;
+  text-align: center;
+}
+
+.single-calendar .daynumber {
+  padding: 15px 8px 15px 8px;
+  font-weight: bold;
+  text-align: center;
 }
 
 ._container {

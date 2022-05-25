@@ -5,6 +5,7 @@ $color-yellow: #fef0d5;
 $color-blue: #235C55;
 $color-red: #D81e5d;
 $color-grey: #DBDBDB;
+$color-grey-dark: #525053;
 
 body {
   font-family: sans-serif;
@@ -76,10 +77,44 @@ body {
   }
 
   .dropdown {
-    padding: 5px;
+    padding: 6px;
     border: 1px solid $color-grey;
-    border-radius: 1px;
+    border-radius: 5px;
   }
+}
+
+.single-calendar {
+  color: $color-grey-dark;
+  width: 270px;
+  height: 320px;
+
+  .calendar {
+    border: 2px solid $color-blue;
+    border-radius: 10px;
+    padding: 15px 10px;
+  }
+
+  .monthname {
+    font-family: $font-header;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .weekdays {
+    color: lighten($color-grey-dark, 40%)
+  }
+
+  .dayname {
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .daynumber {
+    padding: 15px 8px 15px 8px;
+    font-weight: bold;
+    text-align: center;
+  }
+
 }
 
 ._container {
